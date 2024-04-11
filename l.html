@@ -1,0 +1,30 @@
+<center style="background-color:aquamarine;border-color:black;border-style:ridge;border-width: 5px;display:inline-block;padding: 90px;margin: 70px;margin-left: 330px;"> 
+<h1 style=>Guess the Number from 1 to 10🧐</h1>
+<input id="lav" placeholder="🤔.....">
+<button onclick="change()">Enter</button>
+<h3 id="result">wrong/right</h3>
+<h3 id="chance">score:10 </h3>
+</center>
+<script>
+    var inp = document.getElementById("lav")
+    var res = document.getElementById("result")
+    var ran = Math.floor(Math.random()*10)+1
+    var score = 10
+    function change(){
+    var val = inp.value  
+    if(ran!=val){
+        result.textContent="Wrong❌" 
+        score = score-1
+        chance.textContent="score:"+score+"😔"
+    }
+    else{
+        result.textContent="Right✔️"
+        alert("you won!🏆") 
+        chance.textContent="score:"+score+"😀"
+         
+
+    }
+
+    }
+
+</script>
