@@ -11,3 +11,5 @@ If the answer is correct a pop-up message occurs.
 Number of Lines of Code: 58
 
 Read the document attached to repository for further details about the game.
+
+Feel free to give your opinion for further improvement.
