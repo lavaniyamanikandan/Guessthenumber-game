@@ -13,3 +13,6 @@ Number of Lines of Code: 58
 Read the document attached to repository for further details about the game.
 
 Feel free to give your opinion for further improvement.
+
+click here to play the game : https://lavaniyamanikandan.github.io/Guessthenumber-game/
+
